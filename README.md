@@ -1,1 +1,1 @@
-# Periodic-Table-of-Two-Letter-Scrabble-Words
+# The Periodic Table of Two-Letter Scrabble Words
