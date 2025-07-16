@@ -1,7 +1,6 @@
 const COLORS: string[] = [
     "#C7F9FF",
     "#E2CFC4",
-    
     "#EDC7FF",
     "#FFF2C7",
     "#C7FFE9",

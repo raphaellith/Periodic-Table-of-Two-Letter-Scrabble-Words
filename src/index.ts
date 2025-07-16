@@ -3,7 +3,7 @@ const NUM_OF_COLS: number = 15;
 
 const BIGRAMS: Bigram[] = [];
 
-let selectedBigram;
+let selectedBigram: Bigram;
 
 function getBigramByWord(word: string): Bigram {
     for (const b of BIGRAMS) {
@@ -15,22 +15,22 @@ function getBigramByWord(word: string): Bigram {
 }
 
 function addBigramToPTable(bigram: Bigram) {
-    const tileDiv = document.createElement("div");
+    const tileDiv: HTMLElement = document.createElement("div");
     tileDiv.classList.add("tile");
     tileDiv.id = `p-table-tile-${bigram.posX}-${bigram.posY}`;
 
-    const letterDiv = document.createElement("div");
+    const letterDiv: HTMLElement = document.createElement("div");
     letterDiv.classList.add("letter");
     letterDiv.textContent = bigram.word;
 
-    const valueDiv = document.createElement("div");
+    const valueDiv: HTMLElement = document.createElement("div");
     valueDiv.classList.add("value");
     valueDiv.textContent = bigram.getPoints().toString();
 
     tileDiv.style.gridRow = `${bigram.posY + 1} / ${bigram.posY + 2}`;
     tileDiv.style.gridColumn = `${bigram.posX + 1} / ${bigram.posX + 2}`;
     
-    const tileColor = categoryNumToColor(bigram.categoryNum);
+    const tileColor: string = categoryNumToColor(bigram.categoryNum);
     tileDiv.style.backgroundColor = tileColor;
     tileDiv.style.border = `${darkenColor(tileColor)} solid 2px`;
 
@@ -41,23 +41,23 @@ function addBigramToPTable(bigram: Bigram) {
 }
 
 function addCategoryToLegend(categoryNum: number): void {
-    const color = categoryNumToColor(categoryNum);
-    const categoryName = categoryNumToCategoryName(categoryNum);
+    const color: string = categoryNumToColor(categoryNum);
+    const categoryName: string = categoryNumToCategoryName(categoryNum);
 
-    const legendItemDiv = document.createElement("div");
+    const legendItemDiv: HTMLElement = document.createElement("div");
     legendItemDiv.classList.add("legend-item");
 
-    const bulletSpan = document.createElement("span");
+    const bulletSpan: HTMLElement = document.createElement("span");
     bulletSpan.classList.add("bullet");
     setBulletColor(bulletSpan, color);
     
-    const categoryNameSpan = document.createElement("span");
+    const categoryNameSpan: HTMLElement = document.createElement("span");
     categoryNameSpan.textContent = categoryName;
 
     legendItemDiv.appendChild(bulletSpan);
     legendItemDiv.appendChild(categoryNameSpan);
 
-    const colNum = categoryNum < CATEGORIES.length/2 ? 1 : 2;
+    const colNum: number = categoryNum < CATEGORIES.length/2 ? 1 : 2;
 
     document.getElementById(`legend-item-list-col${colNum}`).appendChild(legendItemDiv);
 }
@@ -75,12 +75,12 @@ function initLegend(): void {
 }
 
 function updateInfoBox(selectedBigramWord: string): void {
-    let selectedBigram = getBigramByWord(selectedBigramWord);
+    let selectedBigram: Bigram = getBigramByWord(selectedBigramWord);
 
     if (selectedBigram == null) { return; }
 
     const letters: [string, string] = [selectedBigram.getFirstLetter(), selectedBigram.getSecondLetter()];
-    const letterScores: [number, number] = [scoreOfLetter(letters[0]), scoreOfLetter(letters[1])];
+    const letterScores: [number, number] = letters.map(scoreOfLetter) as [number, number];
 
     for (let i = 0; i < 2; i++) {
         document.querySelectorAll(`.selected-word-letter${i+1}`).forEach(span => {
@@ -100,10 +100,10 @@ function updateInfoBox(selectedBigramWord: string): void {
         span.textContent = selectedBigram.getPoints().toString();
     });
 
-    const defList = document.getElementById("selected-word-definitions");
+    const defList: HTMLElement = document.getElementById("selected-word-definitions");
     defList.replaceChildren();  // Clear all children
     for (const definition of selectedBigram.definitions) {
-        const listItem = document.createElement("li");
+        const listItem: HTMLElement = document.createElement("li");
         listItem.textContent = definition;
         defList.appendChild(listItem);
     }
@@ -115,7 +115,7 @@ function updateInfoBox(selectedBigramWord: string): void {
 
 function initEventListeners(): void {
     document.querySelectorAll("#p-table .tile").forEach(tile => {
-        tile.addEventListener("click", (e) => {
+        tile.addEventListener("click", _ => {
             updateInfoBox(tile.querySelector(".letter").textContent);
 
             document.getElementById("selected-word").scrollIntoView({
@@ -126,18 +126,18 @@ function initEventListeners(): void {
     })
 
     Array.from(document.getElementsByClassName("legend-item")).forEach(legendItem => {
-        const categoryName = legendItem.lastChild.textContent;
-        const tileDivsInCategory = BIGRAMS
+        const categoryName: string = legendItem.lastChild.textContent;
+        const tileDivsInCategory: HTMLElement[] = BIGRAMS
             .filter(b => b.getCategoryName() == categoryName)
             .map(b => document.getElementById(`p-table-tile-${b.posX}-${b.posY}`));
         
-        legendItem.addEventListener("mouseover", (e) => {
+        legendItem.addEventListener("mouseover", _ => {
             tileDivsInCategory.forEach(
                 tile => tile.classList.add("in-selected-category")
             );
         });
 
-        legendItem.addEventListener("mouseout", (e) => {
+        legendItem.addEventListener("mouseout", _ => {
             tileDivsInCategory.forEach(
                 tile => tile.classList.remove("in-selected-category")
             );
@@ -154,7 +154,7 @@ function initTotalNumOfBigrams(): void {
 async function init(): Promise<void> {
     initLegend();
 
-    const bigrams = await getBigramsFromJsonFile('assets/bigrams.json');
+    const bigrams: Bigram[] = await getBigramsFromJsonFile('assets/bigrams.json');
 
     initPTable(bigrams);
 
