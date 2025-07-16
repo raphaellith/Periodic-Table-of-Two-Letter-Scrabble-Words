@@ -1,1 +1,1 @@
-# Periodic-Table-of-Scrabble-Bigrams
+# Periodic-Table-of-Two-Letter-Scrabble-Words
