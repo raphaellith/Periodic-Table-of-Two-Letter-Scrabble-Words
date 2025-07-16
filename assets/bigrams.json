@@ -1,0 +1,951 @@
+[
+    {
+        "w": "Ef",
+        "x": 0,
+        "y": 0,
+        "d": "The letter F",
+        "c": 0
+    },
+
+
+    {
+        "w": "He",
+        "x": 14,
+        "y": 0,
+        "d": ["A male person or animal", "An expression of amusement or derision"],
+        "c": 7
+    },
+
+
+    {
+        "w": "El",
+        "x": 0,
+        "y": 1,
+        "d": "American elevated railway",
+        "c": 0
+    },
+
+
+    {
+        "w": "Mu",
+        "x": 1,
+        "y": 1,
+        "d": "Twelfth letter in the Greek alphabet",
+        "c": 1
+    },
+
+
+    {
+        "w": "Da",
+        "x": 2,
+        "y": 1,
+        "d": ["Dad", "Burmese knife"],
+        "c": 2
+    },
+
+
+    {
+        "w": "Of",
+        "x": 13,
+        "y": 1,
+        "d": "Belonging to",
+        "c": 6
+    },
+
+
+    {
+        "w": "It",
+        "x": 14,
+        "y": 1,
+        "d": ["The third person singular neuter pronoun, referring to a nonhuman, animal, plant or inanimate object", "Player whose turn it is to catch the others in children's games"],
+        "c": 7
+    },
+
+
+    {
+        "w": "Em",
+        "x": 0,
+        "y": 2,
+        "d": "Square of a body of any size of type, used as a unit of measurement",
+        "c": 0
+    },
+
+
+    {
+        "w": "Nu",
+        "x": 1,
+        "y": 2,
+        "d": "Thirteenth letter in the Greek alphabet",
+        "c": 1
+    },
+
+
+    {
+        "w": "Pa",
+        "x": 2,
+        "y": 2,
+        "d": ["A father", "(Formerly) fortified Māori settlement"],
+        "c": 2
+    },
+
+
+    {
+        "w": "Bo",
+        "x": 3,
+        "y": 1,
+        "d": ["Exclamation uttered to startle or surprise someone", "Fellow, buddy"],
+        "c": 3
+    },
+
+
+    {
+        "w": "Hi",
+        "x": 3,
+        "y": 6,
+        "d": "Hello",
+        "c": 3
+    },
+
+
+    {
+        "w": "Mm",
+        "x": 4,
+        "y": 6,
+        "d": "Expression of enjoyment of taste or smell",
+        "c": 3
+    },
+
+    {
+        "w": "Ow",
+        "x": 5,
+        "y": 6,
+        "d": "Exclamation of pain",
+        "c": 3
+    },
+
+    {
+        "w": "Uh",
+        "x": 6,
+        "y": 2,
+        "d": "Used to express hesitation",
+        "c": 3
+    },
+
+
+    {
+        "w": "Do",
+        "x": 7,
+        "y": 2,
+        "d": ["Perform or complete (a deed or action)", "Party, celebration", "The first note of the musical scale"],
+        "c": 4
+    },
+
+
+    {
+        "w": "So",
+        "x": 8,
+        "y": 2,
+        "d": ["Such an extent", "Exclamation of surprise, triumph, or realization", "The fifth note of the musical scale"],
+        "c": 4
+    },
+
+
+    {
+        "w": "Ag",
+        "x": 9,
+        "y": 2,
+        "d": "Agriculture",
+        "c": 5
+    },
+
+
+    {
+        "w": "Ab",
+        "x": 10,
+        "y": 2,
+        "d": "Abdominal muscle",
+        "c": 6
+    },
+
+
+    {
+        "w": "At",
+        "x": 11,
+        "y": 2,
+        "d": ["To respond to someone online with notification", "Laotian monetary unit worth one hundredth of a kip"],
+        "c": 6
+    },
+
+
+    {
+        "w": "Go",
+        "x": 12,
+        "y": 2,
+        "d": ["Move to or from a place", "Attempt"],
+        "c": 6
+    },
+
+
+    {
+        "w": "On",
+        "x": 13,
+        "y": 2,
+        "d": ["Indicating position above, attachment, closeness, etc", "In operation", "Operating", "Legside of a cricket field or pitch", "Go on"],
+        "c": 6
+    },
+
+
+    {
+        "w": "Me",
+        "x": 14,
+        "y": 2,
+        "d": ["Refers to the speaker or writer", "The third degree of any major scale"],
+        "c": 7
+    },
+
+
+    {
+        "w": "En",
+        "x": 0,
+        "y": 3,
+        "d": "Unit of measurement, half the width of an em",
+        "c": 0
+    },
+
+
+    {
+        "w": "Pi",
+        "x": 1,
+        "y": 3,
+        "d": ["Sixteenth letter in the Greek alphabet", "Spill and mix (set type) indiscriminately"],
+        "c": 1
+    },
+
+
+    {
+        "w": "Ma",
+        "x": 2,
+        "y": 3,
+        "d": "Mother",
+        "c": 2
+    },
+
+
+    {
+        "w": "Eh",
+        "x": 3,
+        "y": 2,
+        "d": "Exclamation of surprise or inquiry",
+        "c": 3
+    },
+
+
+    {
+        "w": "Hm",
+        "x": 4,
+        "y": 2,
+        "d": "Sound made to express hesitation or doubt",
+        "c": 3
+    },
+
+
+    {
+        "w": "Na",
+        "x": 5,
+        "y": 2,
+        "d": "Answer or vote of 'No'",
+        "c": 3
+    },
+
+
+    {
+        "w": "Um",
+        "x": 6,
+        "y": 3,
+        "d": "Representation of a common sound made when hesitating in speech",
+        "c": 3
+    },
+
+
+    {
+        "w": "Ut",
+        "x": 7,
+        "y": 3,
+        "d": "The musical tone C in the french solmization system, now replaced by 'do'",
+        "c": 4
+    },
+
+
+    {
+        "w": "La",
+        "x": 8,
+        "y": 3,
+        "d": "The sixth note of the musical scale",
+        "c": 4
+    },
+
+
+    {
+        "w": "Ed",
+        "x": 9,
+        "y": 3,
+        "d": "Editor",
+        "c": 5
+    },
+
+
+    {
+        "w": "Ad",
+        "x": 10,
+        "y": 3,
+        "d": "Advertisement",
+        "c": 6
+    },
+
+
+    {
+        "w": "Ax",
+        "x": 11,
+        "y": 3,
+        "d": "Axe",
+        "c": 6
+    },
+
+
+    {
+        "w": "Is",
+        "x": 12,
+        "y": 3,
+        "d": "Form of the present tense of 'be'",
+        "c": 6
+    },
+
+
+    {
+        "w": "Or",
+        "x": 13,
+        "y": 3,
+        "d": ["Before", "Of the metal gold", "Gold"],
+        "c": 6
+    },
+
+
+    {
+        "w": "My",
+        "x": 14,
+        "y": 3,
+        "d": ["Belonging to me", "Exclamation of surprise or awe"],
+        "c": 7
+    },
+
+
+    {
+        "w": "Ar",
+        "x": 0,
+        "y": 4,
+        "d": "The letter R",
+        "c": 0
+    },
+
+
+    {
+        "w": "Xi",
+        "x": 1,
+        "y": 4,
+        "d": "Fourteenth letter in the Greek alphabet",
+        "c": 1
+    },
+
+
+    {
+        "w": "Ah",
+        "x": 2,
+        "y": 4,
+        "d": "Exclamation expressing surprise, joy etc",
+        "c": 3
+    },
+
+
+    {
+        "w": "Er",
+        "x": 3,
+        "y": 3,
+        "d": "Sound made when hesitating in speech",
+        "c": 3
+    },
+
+
+    {
+        "w": "Ho",
+        "x": 4,
+        "y": 3,
+        "d": ["Imitation or representation of the sound of a deep laugh", "Halt"],
+        "c": 3
+    },
+
+
+    {
+        "w": "Oh",
+        "x": 5,
+        "y": 3,
+        "d": "Exclamation of surprise, pain, etc",
+        "c": 3
+    },
+
+
+    {
+        "w": "Sh",
+        "x": 6,
+        "y": 4,
+        "d": "Hush",
+        "c": 3
+    },
+
+
+    {
+        "w": "Re",
+        "x": 7,
+        "y": 4,
+        "d": ["The second note of the musical scale", "Concerning"],
+        "c": 4
+    },
+
+
+    {
+        "w": "Ti",
+        "x": 8,
+        "y": 4,
+        "d": "The seventh degree of any major scale",
+        "c": 4
+    },
+
+
+    {
+        "w": "Mo",
+        "x": 9,
+        "y": 4,
+        "d": "Moment",
+        "c": 5
+    },
+
+
+    {
+        "w": "Am",
+        "x": 10,
+        "y": 4,
+        "d": "Form of the present tense of 'be'",
+        "c": 6
+    },
+
+
+    {
+        "w": "Be",
+        "x": 11,
+        "y": 4,
+        "d": "Exist or live",
+        "c": 6
+    },
+
+
+    {
+        "w": "If",
+        "x": 12,
+        "y": 4,
+        "d": "Uncertainty or doubt",
+        "c": 6
+    },
+
+
+    {
+        "w": "Ox",
+        "x": 13,
+        "y": 4,
+        "d": "Castrated bull",
+        "c": 6
+    },
+
+
+    {
+        "w": "Us",
+        "x": 14,
+        "y": 4,
+        "d": "Refers to the speaker or writer and another person or other people",
+        "c": 7
+    },
+
+
+    {
+        "w": "Es",
+        "x": 0,
+        "y": 5,
+        "d": "The letter S",
+        "c": 0
+    },
+
+
+    {
+        "w": "Fe",
+        "x": 1,
+        "y": 5,
+        "d": "Variant of Hebrew letter 'pe', transliterated as F",
+        "c": 1
+    },
+
+
+    {
+        "w": "Aw",
+        "x": 2,
+        "y": 5,
+        "d": ["Used to express protest, disgust, or disbelief", "Entire being, effort, or property"],
+        "c": 3
+    },
+
+
+    {
+        "w": "Ew",
+        "x": 3,
+        "y": 4,
+        "d": "Expression of disgust",
+        "c": 3
+    },
+
+
+    {
+        "w": "Jo",
+        "x": 4,
+        "y": 4,
+        "d": "Scots word for sweetheart",
+        "c": 3
+    },
+
+
+    {
+        "w": "Oi",
+        "x": 5,
+        "y": 4,
+        "d": ["Shout to attract attention", "Grey-faced petrel"],
+        "c": 3
+    },
+
+
+    {
+        "w": "Ta",
+        "x": 6,
+        "y": 5,
+        "d": "Thank you",
+        "c": 3
+    },
+
+
+    {
+        "w": "Mi",
+        "x": 7,
+        "y": 5,
+        "d": "The third degree of any major scale",
+        "c": 4
+    },
+
+
+    {
+        "w": "Te",
+        "x": 8,
+        "y": 5,
+        "d": "The seventh degree of any major scale",
+        "c": 4
+    },
+
+
+    {
+        "w": "Wo",
+        "x": 9,
+        "y": 5,
+        "d": "Woe or grief",
+        "c": 5
+    },
+
+
+    {
+        "w": "An",
+        "x": 10,
+        "y": 5,
+        "d": "Form of 'a' used before vowels",
+        "c": 6
+    },
+
+
+    {
+        "w": "Bi",
+        "x": 11,
+        "y": 5,
+        "d": "Bisexual",
+        "c": 6
+    },
+
+
+    {
+        "w": "In",
+        "x": 12,
+        "y": 5,
+        "d": ["Indicating position inside, state or situation, etc", "Fashionable", "Way of approaching or befriending a person", "Take in"],
+        "c": 6
+    },
+
+
+    {
+        "w": "To",
+        "x": 13,
+        "y": 5,
+        "d": ["Indicating movement towards, equality or comparison, etc", "A closed position"],
+        "c": 6
+    },
+
+
+    {
+        "w": "We",
+        "x": 14,
+        "y": 5,
+        "d": "Speaker or writer and one or more others",
+        "c": 7
+    },
+
+
+    {
+        "w": "Ex",
+        "x": 0,
+        "y": 6,
+        "d": ["Not including", "Former spouse, significant other, etc", "Cross out or delete"],
+        "c": 0
+    },
+
+
+    {
+        "w": "Pe",
+        "x": 1,
+        "y": 6,
+        "d": "Seventeenth letter of the Hebrew alphabet, transliterated as P",
+        "c": 1
+    },
+
+
+    {
+        "w": "Ay",
+        "x": 2,
+        "y": 6,
+        "d": "Expression of agreement",
+        "c": 3
+    },
+
+
+    {
+        "w": "Ha",
+        "x": 3,
+        "y": 5,
+        "d": "Exclamation of triumph, surprise, or scorn",
+        "c": 3
+    },
+
+
+    {
+        "w": "Lo",
+        "x": 4,
+        "y": 5,
+        "d": "Look",
+        "c": 3
+    },
+
+
+    {
+        "w": "Ok",
+        "x": 5,
+        "y": 5,
+        "d": "Expression of approval",
+        "c": 3
+    },
+
+
+    {
+        "w": "Yo",
+        "x": 6,
+        "y": 6,
+        "d": "Expression used as a greeting",
+        "c": 3
+    },
+
+
+    {
+        "w": "Fa",
+        "x": 7,
+        "y": 6,
+        "d": "The fourth degree of any major scale",
+        "c": 4
+    },
+
+
+    {
+        "w": "Si",
+        "x": 8,
+        "y": 6,
+        "d": "The seventh degree of any major scale",
+        "c": 4
+    },
+
+
+    {
+        "w": "Za",
+        "x": 9,
+        "y": 6,
+        "d": "Pizza",
+        "c": 5
+    },
+
+
+    {
+        "w": "As",
+        "x": 10,
+        "y": 6,
+        "d": ["Used to indicate amount or extent in comparisons", "Ancient Roman unit of weight"],
+        "c": 6
+    },
+
+
+    {
+        "w": "By",
+        "x": 11,
+        "y": 6,
+        "d": ["Indicating agent, nearness, movement past, etc", "Near", "Pass to the next round"],
+        "c": 6
+    },
+
+
+    {
+        "w": "No",
+        "x": 12,
+        "y": 6,
+        "d": ["Expresses denial, disagreement, or refusal", "Not any, not a", "Not at all"],
+        "c": 6
+    },
+
+
+    {
+        "w": "Up",
+        "x": 13,
+        "y": 6,
+        "d": ["Indicating movement to or position at a higher place", "Of a high or higher position", "Increase or raise"],
+        "c": 6
+    },
+
+
+    {
+        "w": "Ye",
+        "x": 14,
+        "y": 6,
+        "d": ["You", "The"],
+        "c": 7
+    },
+
+
+    {
+        "w": "Aa",
+        "x": 2,
+        "y": 8,
+        "d": "Rough, cindery lava or volcanic rock",
+        "c": 8
+    },
+
+
+    {
+        "w": "Ae",
+        "x": 3,
+        "y": 8,
+        "d": "One",
+        "c": 8
+    },
+
+
+    {
+        "w": "Ai",
+        "x": 4,
+        "y": 8,
+        "d": "Shaggy-coated slow-moving animal of South America",
+        "c": 8
+    },
+
+
+    {
+        "w": "Oe",
+        "x": 5,
+        "y": 8,
+        "d": ["A whirlwind near the Faeroe Islands", "Grandchild"],
+        "c": 8
+    },
+
+    {
+        "w": "Ba",
+        "x": 6,
+        "y": 8,
+        "d": "Symbol for the soul in Ancient Egyptian religion",
+        "c": 9
+    },
+
+    {
+        "w": "Id",
+        "x": 7,
+        "y": 8,
+        "d": "Mind's instinctive unconscious energies",
+        "c": 9
+    },
+
+
+    {
+        "w": "Ka",
+        "x": 8,
+        "y": 8,
+        "d": "Type of spirit in ancient Egypt",
+        "c": 9
+    },
+
+
+    {
+        "w": "Ki",
+        "x": 9,
+        "y": 8,
+        "d": "Vital energy",
+        "c": 9
+    },
+
+
+    {
+        "w": "Qi",
+        "x": 10,
+        "y": 8,
+        "d": "Vital energy",
+        "c": 9
+    },
+
+
+    {
+        "w": "Od",
+        "x": 11,
+        "y": 8,
+        "d": "Archaic word for a hypothetical force of natural power",
+        "c": 9
+    },
+
+
+    {
+        "w": "Om",
+        "x": 12,
+        "y": 8,
+        "d": "Sacred syllable in Hinduism",
+        "c": 9
+    },
+
+    {
+        "w": "Oy",
+        "x": 13,
+        "y": 8,
+        "d": "Grandchild",
+        "c": 9
+    },
+
+    {
+        "w": "Al",
+        "x": 2,
+        "y": 9,
+        "d": "An East Indian small shrub or tree with yellow fruits",
+        "c": 10
+    },
+
+
+    {
+        "w": "Li",
+        "x": 3,
+        "y": 9,
+        "d": "Chinese unit of distance",
+        "c": 10
+    },
+
+    {
+        "w": "Xu",
+        "x": 4,
+        "y": 9,
+        "d": "Vietnamese currency unit",
+        "c": 10
+    },
+
+
+    {
+        "w": "Ya",
+        "x": 5,
+        "y": 9,
+        "d": "Type of Chinese pear",
+        "c": 10
+    },
+
+    {
+        "w": "De",
+        "x": 6,
+        "y": 9,
+        "d": "Of or from",
+        "c": 11
+    },
+
+    {
+        "w": "Gi",
+        "x": 7,
+        "y": 9,
+        "d": "White suit worn in martial arts",
+        "c": 11
+    },
+    
+    {
+        "w": "Et",
+        "x": 8,
+        "y": 9,
+        "d": "Eat",
+        "c": 11
+    },
+
+    {
+        "w": "Ne",
+        "x": 9,
+        "y": 9,
+        "d": "Nor",
+        "c": 11
+    },
+
+
+    {
+        "w": "Op",
+        "x": 10,
+        "y": 9,
+        "d": ["A style of abstract art", "Operation"],
+        "c": 11
+    },
+
+
+    {
+        "w": "Os",
+        "x": 11,
+        "y": 9,
+        "d": ["Mouth or mouthlike part or opening", "Bone", "Long ridge of gravel, sand, etc"],
+        "c": 11
+    },
+
+
+    {
+        "w": "Po",
+        "x": 12,
+        "y": 9,
+        "d": "Chamberpot",
+        "c": 11
+    },
+
+    {
+        "w": "Un",
+        "x": 13,
+        "y": 9,
+        "d": "Spelling of 'one' intended to reflect a dialectal or informal pronunciation",
+        "c": 11
+    }
+]

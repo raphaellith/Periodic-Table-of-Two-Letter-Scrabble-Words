@@ -1,0 +1,195 @@
+:root {
+    --num-of-rows: 10;
+    --num-of-cols: 15;
+    --aspect-ratio: var(--num-of-cols) / var(--num-of-rows);
+
+    --lemon-chiffon: #FFF7C1;
+    --maize: #FFEE82;
+
+    --bg-color: #fefae0;
+}
+
+html, body {
+    margin: 0;
+
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+h1 {
+    margin: 0;
+    font-size: 3vw;
+}
+
+#subtitle {
+    font-size: 1.25vw;
+}
+
+#content-wrapper {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80vw;
+}
+
+#p-table {
+    margin-top: 1em;
+    margin-bottom: 2em;
+
+    display: grid;
+    gap: 3px;
+    grid-template-rows: repeat(var(--num-of-rows), 1fr);
+    grid-template-columns: repeat(var(--num-of-cols), 1fr);
+
+    filter: drop-shadow(0.6vw 0.6vw lightgray);
+}
+
+.tile {
+    position: relative;
+
+    aspect-ratio: 1;
+
+    border: black solid 2px;
+    background-color: white;
+    border-radius: 3px;
+    
+    transform: none;
+
+    /*
+    Allows children to query this container.
+    Here we use container queries to resize fonts inside this tile based on the tile size.
+    https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_queries#container_query_length_units
+    */
+    container-type: size;  
+
+    transition: transform 0.2s;
+}
+
+#p-table .tile:hover {
+    transform: scale(1.1);
+}
+
+#p-table .tile.in-selected-category {
+    transform: scale(1.1);
+}
+
+.tile .letter {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+
+    font-weight: bold;
+}
+
+.tile .value {
+    position: absolute;
+    right: 5%;
+    bottom: 3%;
+
+    z-index: 1;
+}
+
+#p-table .tile .letter {
+    font-size: 45cqh;
+}
+
+#p-table .tile .value {
+    font-size: 25cqh;
+}
+
+#info-grid {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 1vw;
+
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+.info-grid-box {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    
+    border: 4px solid #1b4332;
+    border-radius: 20px;
+    background-color: #b7e4c7;
+
+    font-size: 2.25vmin;
+}
+
+.info-grid-box-heading {
+    margin: 0;
+    margin-bottom: 0.3em;
+    font-size: 1.25em;
+
+    padding: 0;
+}
+
+.info-grid-box-subheading {
+    margin: 0;
+    margin-top: 2em;
+    font-size: inherit;
+}
+
+#bigram-info {
+    flex: 1 1 fit-content;
+}
+
+#bigram-info .tile {
+    width: 5vw;
+    display: inline-block;
+
+    background: linear-gradient(45deg, var(--lemon-chiffon) 0%, var(--maize) 100%);
+    filter: drop-shadow(3px 3px 5px grey);
+}
+
+#bigram-info .tile .letter {
+    font-size: 65cqh;
+}
+
+#bigram-info .tile .value {
+    font-size: 22cqh;
+}
+
+.selected-word-data {
+    font-weight: bold;
+}
+
+#legend {
+    flex: 0 0.1 fit-content;
+}
+
+#legend-item-list {
+    display: flex;
+}
+
+.legend-item-list-col {
+    flex: 1 1 fit-content;
+}
+
+.bullet {
+    display: inline-block;
+    
+    width: 1.5vmin;
+    height: 1.5vmin;
+    border-radius: 50%;
+
+    /* margin-top: 1.5vmin; */
+    margin-right: 1em;
+    
+    vertical-align: -0.1em;
+    
+    background-color: black;
+}

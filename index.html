@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Periodic Table of Two-Letter Scrabble Words</title>
+
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+  </style>
+
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="dist/categories.js" defer></script>
+  <script src="dist/bigram.js" defer></script>
+  <script src="dist/index.js" defer></script>
+</head>
+<body>
+  <div id="content-wrapper">
+    <h1>The Periodic Table of Two-Letter Scrabble Words</h1>
+    <div id="subtitle">A visualisation of all <span class="total-num-of-bigrams"></span> two-letter words playable in official Scrabble tournaments.</div>
+
+    <div id="p-table"></div>
+
+    <div id="info-grid">
+      <div id="legend" class="info-grid-box">
+        <h3 class="info-grid-box-heading">Legend</h3>
+
+        <div id="legend-item-list">
+          <div class="legend-item-list-col" id="legend-item-list-col1"></div>
+          <div class="legend-item-list-col" id="legend-item-list-col2"></div>
+        </div>
+      </div>
+
+      <div id="bigram-info" class="info-grid-box">
+        <h3 class="info-grid-box-heading">Word info</h3>
+
+        <p id="selected-word">
+          <div class="tile">
+            <div class="letter selected-word-letter1">A</div>
+            <div class="value selected-word-value1">1</div>
+          </div>
+          <div class="tile">
+            <div class="letter selected-word-letter2">A</div>
+            <div class="value selected-word-value2" >1</div>
+          </div>
+        </p>
+        
+        <h4 class="info-grid-box-subheading">Definition</h4>
+
+        <ul id="selected-word-definitions"></ul>
+
+        <h4 class="info-grid-box-subheading">Scoring</h4>
+
+        <p>
+          The first letter
+          <span class="selected-word-data selected-word-letter1"></span>
+          scores
+          <span class="selected-word-data selected-word-value1"></span>
+          point<span class="selected-word-value1-pluralisation">s</span>.<br>
+          The second letter
+          <span class="selected-word-data selected-word-letter2"></span>
+          scores
+          <span class="selected-word-data selected-word-value2"></span>
+          point<span class="selected-word-value2-pluralisation">s</span>.<br>
+          This amounts to a total of
+          <span class="selected-word-data selected-word-total-score"></span>
+          points.
+        </p>
+
+        <h4 class="info-grid-box-subheading">Category</h4>
+        <p style="margin: 0.5em;">
+          <span class="legend-item">
+            <span class="bullet" id="selected-word-category-bullet"></span>
+            <span id="selected-word-category"></span>
+          </span>
+        </p>
+      </div>
+    </div>
+
+    <div style="text-align: center;">
+      All categorisations and definitions are for reference only.<br>
+      Words that are exclusive to the Collins Scrabble Words list are not included here.<br>
+      Definitions are sourced and adapted from various official Scrabble dictionaries but are not necessarily comprehensive.
+    </div>
+  </div>
+</body>
+</html>
