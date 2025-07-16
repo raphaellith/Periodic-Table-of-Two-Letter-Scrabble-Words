@@ -69,7 +69,7 @@ function updateInfoBox(selectedBigramWord) {
         return;
     }
     const letters = [selectedBigram.getFirstLetter(), selectedBigram.getSecondLetter()];
-    const letterScores = [scoreOfLetter(letters[0]), scoreOfLetter(letters[1])];
+    const letterScores = letters.map(scoreOfLetter);
     for (let i = 0; i < 2; i++) {
         document.querySelectorAll(`.selected-word-letter${i + 1}`).forEach(span => {
             span.textContent = letters[i];
@@ -96,7 +96,7 @@ function updateInfoBox(selectedBigramWord) {
 }
 function initEventListeners() {
     document.querySelectorAll("#p-table .tile").forEach(tile => {
-        tile.addEventListener("click", (e) => {
+        tile.addEventListener("click", _ => {
             updateInfoBox(tile.querySelector(".letter").textContent);
             document.getElementById("selected-word").scrollIntoView({
                 behavior: 'smooth', // For smooth scrolling animation
@@ -109,10 +109,10 @@ function initEventListeners() {
         const tileDivsInCategory = BIGRAMS
             .filter(b => b.getCategoryName() == categoryName)
             .map(b => document.getElementById(`p-table-tile-${b.posX}-${b.posY}`));
-        legendItem.addEventListener("mouseover", (e) => {
+        legendItem.addEventListener("mouseover", _ => {
             tileDivsInCategory.forEach(tile => tile.classList.add("in-selected-category"));
         });
-        legendItem.addEventListener("mouseout", (e) => {
+        legendItem.addEventListener("mouseout", _ => {
             tileDivsInCategory.forEach(tile => tile.classList.remove("in-selected-category"));
         });
     });
