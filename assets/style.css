@@ -126,7 +126,7 @@ h1 {
     border-radius: 20px;
     background-color: #b7e4c7;
 
-    font-size: 2.25vmin;
+    font-size: 1em;
 }
 
 .info-grid-box-heading {
@@ -192,4 +192,9 @@ h1 {
     vertical-align: -0.1em;
     
     background-color: black;
+}
+
+#disclaimer {
+    text-align: center;
+    font-size: 0.9em;
 }
